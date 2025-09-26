@@ -1,6 +1,7 @@
 #include<stdio.h>
 
 main(){
+// Comment  
 	int i,a = 0,b = 10;
 	for(i=0;i++;i<b)
 			a+=i;
