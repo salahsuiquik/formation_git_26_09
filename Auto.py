@@ -13,7 +13,6 @@ def check_automated(file_path, sheet_name):
             current_row = data.iloc[i]
             if isinstance(current_row[2], str):
                 if 'automated' in current_row[2].lower():
-                    # Vérifier la ligne précédente
                     previous_row = data.iloc[i-1]
                     if 'automated' in str(previous_row[2]).lower():
                         print(f"Automated existe dans la ligne precedente ({i}).")
